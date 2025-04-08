@@ -14,6 +14,8 @@ import java.util.HashMap;
 import java.util.Map;
 import java.util.concurrent.TimeoutException;
 import lombok.extern.slf4j.Slf4j;
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
 
 /**
  * @author neil
@@ -28,6 +30,8 @@ public class RabbitProducer {
     public static final String QUEUE_NAME = "queue_demo";
     public static final String IP_ADDRESS = "192.168.199.104";//"localhost";
     public static final int PORT = 5672;
+
+    // private static final Logger log = LoggerFactory.getLogger(RabbitProducer.class);
 
     public static void main(String[] args) throws IOException, TimeoutException {
         ConnectionFactory connectionFactory = new ConnectionFactory();

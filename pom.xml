@@ -13,19 +13,20 @@
     <url>http://www.example.com</url>
 
     <modules>
+        <module>explore-java-language</module>
         <module>explore-algorithm</module>
-        <module>explore-java</module>
         <module>explore-spring-framework</module>
         <module>explore-spring-boot</module>
         <module>explore-spring-cloud</module>
         <module>explore-rabbitmq</module>
+        <module>explore-redis-client</module>
         <module>explore-elastic-search</module>
 
         <module>demo-dubbo</module>
         <module>demo-sharding-jdbc</module>
         <module>demo-completable-future</module>
         <module>demo-database-and-table-partition</module>
-
+        <module>demo-big-response</module>
     </modules>
 
 </project>

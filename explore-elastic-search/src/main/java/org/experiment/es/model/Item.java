@@ -1,4 +1,4 @@
-package org.experiment.es;
+package org.experiment.es.model;
 
 import lombok.AllArgsConstructor;
 import lombok.Data;

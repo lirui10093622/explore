@@ -1,5 +1,6 @@
-package org.experiment.es;
+package org.experiment.es.repository;
 
+import org.experiment.es.model.Item;
 import org.springframework.data.elasticsearch.repository.ElasticsearchRepository;
 
 /**
